@@ -3,7 +3,7 @@
 export default class HomeController {
 
     async index({view}) {
-        return view.render('welcome')
+        return view.render('painels.homepage')
     }
 
     async sobre(){
